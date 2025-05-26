@@ -5,14 +5,18 @@
 #include<stdio.h>;
 
 int main(void) {
-/* double w;
+/*
+  double w;
   double h;
   double area;
-  double perimeter; */
+  double perimeter; 
+*/
   double w, h, area, perimeter; //도전 문제 2
 
-  /*w = 10.0;
-  h = 5.0;*/
+  /*
+  w = 10.0;
+  h = 5.0;
+  */
   printf("직사각형읜 가로값을 입력하시오:");
   scanf("%lf", &w);
   printf("직사각형의 세로값을 입력하시오:");
@@ -23,8 +27,10 @@ int main(void) {
 
   printf("사각형의 넓이: %lf\n 사각형의 둘레: %lf\n", area , perimeter); //도전 문제 1
   
-  /*printf("사각형의 넓이: %lf\n", area);
-  printf("사각형의 둘레: %lf\n", perimeter);*/
+  /*
+  printf("사각형의 넓이: %lf\n", area);
+  printf("사각형의 둘레: %lf\n", perimeter);
+  */
 
   return 0;
 } 

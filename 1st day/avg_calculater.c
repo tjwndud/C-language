@@ -4,11 +4,11 @@
 int main(void) {
   double x, y, z, avg, sum;
 
-  printf("실수를 입력하시오");
+  printf("실수를 입력하시오:");
   scanf("%lf", &x);
-  printf("실수를 입력하시오");
+  printf("실수를 입력하시오:");
   scanf("%lf", &y);
-  printf("실수를 입력하시오");
+  printf("실수를 입력하시오:");
   scanf("%lf", &z);
 
   sum = x + y + z;
